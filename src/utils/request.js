@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
 const instance = axios.create({
-	baseURL: 'https://api.unsplash.com/search/'
+  baseURL: "https://api.unsplash.com/search/",
 });
 
 export default instance;
